@@ -31,26 +31,27 @@
             <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
 
-                <!-- Slide: Title -->
                 <section data-markdown>
                     <script type="text/template">
                         # An Anthology of the PhoneGap CLI</h1>
 
+                        #### Mobile Camp LA 2012
+
                         ### Michael Brooks</h3>
 
-                        ### [@mwbrooks](http://twitter.com/mwbrooks)
+                        ### [@mwbrooks][twitter]
 
-                        ---
-
-                        #### Mobile Camp LA 2012
+                        [twitter]: http://twitter.com/mwbrooks
                     </script>
                 </section>
 
-                <!-- Slide: Evolution -->
-                <!-- @TODO Add image of machinary -->
                 <section data-markdown>
                     <script type="text/template">
                         ## An Evolutionary Look
+
+                        #### 2009-2012
+
+                        > The good bad and the ugly.
                     </script>
                 </section>
 
@@ -60,7 +61,10 @@
 
                         ## Platform Build Chains
 
-                        > Back in the wild wild west, it was every platform for itself. Unfortunately, the build pioneers of this period were outgunned by the platforms packing bells and whistles.
+                        > Back in the wild wild west, it was every platform
+                        > for itself. Unfortunately, the [pioneers](#/3) of this
+                        > period were [outgunned](#/4) by platforms packing
+                        > bells and whistles.
                     </script>
                 </section>
 
@@ -70,8 +74,8 @@
 
                         ### The Pioneers
 
-                        [BlackBerry](https://github.com/apache/incubator-cordova-blackberry-webworks) & [webOS](https://github.com/apache/incubator-cordova-webos)
-                        
+                        #### [BlackBerry][bb-source] [webOS][webos-source]
+
                             $ ant help
 
                             COMMANDS
@@ -86,6 +90,9 @@
                               clean-device ...... Remove this project from device.
 
                               clean-simulator ... Remove this project from simulator.
+
+                        [bb-source]: https://github.com/apache/incubator-cordova-blackberry-webworks
+                        [webos-source]: https://github.com/apache/incubator-cordova-webos
                     </script>
                 </section>
 
@@ -102,6 +109,20 @@
                     </script>
                 </section>
 
+                <section data-markdown data-state="blackout">
+                    <script type="text/template">
+                        ## Platform Build Chains
+
+                        ### <br/>The Good
+
+                        #### each platform had tooling
+
+                        ### <br/>The Bad
+
+                        #### zero consistency
+                    </script>
+                </section>
+
                 <section data-markdown>
                     <script type="text/template">
                         # No. 2
@@ -114,9 +135,12 @@
                     <script type="text/template">
                         ## Project Build Chains
 
-                        > Once upon a time, there was a small shop called [Nitobi](http://nitobi.com).
-                        > They loved building apps for people.
+                        > Once upon a time,<br/>
+                        > there was a small shop called [nitobi][nitobi].<br/>
+                        > They loved building apps for people.<br/>
                         > They hated build apps for devices.
+
+                        [nitobi]: http://nitobi.com
                     </script>
                 </section>
 
@@ -124,11 +148,33 @@
                     <script type="text/template">
                         ## Project Build Chains
 
-                        Each app built had a custom build chain:
+                        ### Each app reinvented the wheel
 
-                        - [Rake](#) came first.
-                        - [Make](#) with the bash trend.
-                        - [Jake](#) when node got stable.
+                        #### [Rake](http://rake.rubyforge.org/)
+
+                        ##### $ rake android-device
+
+                        #### [Make](http://www.gnu.org/software/make/)
+
+                        ##### $ make android-device
+
+                        #### [Jake](https://npmjs.org/package/jake)
+
+                        ##### $ jake android-device
+                    </script>
+                </section>
+
+                <section data-markdown data-state="blackout">
+                    <script type="text/template">
+                        ## Project Build Chains
+
+                        ### <br/>The Good
+
+                        #### Project-level build commands
+
+                        ### <br/>The Bad
+
+                        #### Never scaled beyond a project
                     </script>
                 </section>
 
@@ -144,23 +190,41 @@
                     <script type="text/template">
                         ## Ruby Gem
 
+                        #### $ gem install phonegap
+
                         > One Gem to rule them all,<br/>
                         > One Gem to find them,<br/>
                         > One Gem to bring them all<br/>
                         > and in the darkness bind them.
-
-                        `$ gem install phonegap`
                     </script>
-                    <aside class="notes">
-                        - Strategy:
-                            - CLI was responsible to compile and deploy on each platform
-                        - Battle:
-                            - lost before it began.
-                        - Council Report:
-                            - difficult to hit a moving target.
-                            - platform code changes.
-                            - sdk requirements change.
-                    </aside>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Ruby Gem
+
+                        ### <br/>Strategy
+
+                        #### CLI responsible for compiling and deploying to each platform
+
+                        ### <br/>Reality
+
+                        #### Hard as hell to hit a moving target.
+                    </script>
+                </section>
+
+                <section data-markdown data-state="blackout">
+                    <script type="text/template">
+                        ## Ruby Gem
+
+                        ### <br/>The Good
+
+                        #### The command-line vision.
+
+                        ### <br/>The Bad
+
+                        #### Decoupled from each platform.
+                    </script>
                 </section>
 
                 <section data-markdown>
@@ -176,22 +240,29 @@
                         ## Cordova
 
                         > __Not Apache Cordova__.<br />
-                        > This one street-wise.<br />
+                        > [This one][cordova] was street-wise.<br />
                         > Hardened from past failures.<br />
                         > Born during our bash trend.<br />
                         > And assisted by Python.<br />
                         > Yes, Python.
 
+                        [cordova]: https://github.com/brianleroux/Cordova
                     </script>
-                    <aside class="notes">
-                        - Build chain added to each project.
-                            - helped to reduce version incompatibilities with cli
-                            - a little...
-                            - had to be on a specific PhoneGap version
-                            - still suseptible to SDK changes
-                        - Community got behind this one.
-                        - Still failed.
-                    </aside>
+                </section>
+
+                <section data-markdown data-state="blackout">
+                    <script type="text/template">
+                        ## Cordova
+
+                        ### <br/>The Good
+
+                        #### Build chain added to the project.
+                        #### Community got around it.
+
+                        ### <br/>The Bad
+
+                        #### Decoupled from the platforms.
+                    </script>
                 </section>
 
                 <section data-markdown>
@@ -209,18 +280,27 @@
                         > Humbled from the previous defeats,
                         > we placed the burden on the smallest of creatures.<br/>
                         > <br/>
-                        > Individual platforms.<br/>
+                        > [Individual platforms.][android-bin]<br/>
                         > <br/>
                         > Think of it as a public API that never leaves the terminal.
+
+                        [android-bin]: https://github.com/apache/incubator-cordova-android/tree/master/bin
                     </script>
-                    <aside class="notes">
-                        - Humbled by past defeats.
-                        - Put reponsibility on the lords of the land.
-                            - think of a public API
-                        - Fixed PhoneGap version incompatibilities (strengthed the realm)
-                        - Reduce SDK incompatibilities (fudeal ties)
-                        - Put the responsibility on the platforms
-                    </aside>
+                </section>
+
+                <section data-markdown data-state="blackout">
+                    <script type="text/template">
+                        ## Platform Binaries
+
+                        ### <br/>The Good
+
+                        #### Platform responsible for its build chain.
+                        #### Common commands on all platforms.
+
+                        ### <br/>The Bad
+
+                        #### Not user friendly.
+                    </script>
                 </section>
 
                 <section data-markdown>
@@ -235,7 +315,7 @@
                     <script type="text/template">
                         ## Cordova Command Line
 
-                        > The Cordova command line is the kingdom that unites
+                        > The Cordova command line is a federation that unites
                         > all of the platform binaries.<br/>
                         > Knowing nothing about each platform, it simply pulls
                         > the correct strings.
@@ -248,19 +328,38 @@
                     </aside>
                 </section>
 
+                <section data-markdown data-state="blackout">
+                    <script type="text/template">
+                        ## Cordova Command Line
+
+                        ### <br/>The Good
+
+                        #### Clean interface.
+                        #### Compatible between PhoneGap versions.
+
+                        ### <br/>The Bad
+
+                        #### Cannot 100% solve SDK incompatibilities.
+                    </script>
+                </section>
                 <section data-markdown>
                     <script type="text/template">
                         ## Cordova Command Line
 
                         ### Installation
 
-                            # install from npm:
-                            $ npm install -g cordova
+                        #### <br/>Install from npm
 
-                            # install from source:
+                            $ npm install -g cordova
+                            $ sudo chown -R <username> /usr/local/lib/node_modules/cordova
+
+                        #### <br/>Install from source code
+
                             $ npm link ./cordova
 
-                        #### [Don't Forget the Pesky SDKs](#)
+                        #### <br/>[And the Pesky SDKs][sdk]
+
+                        [sdk]: http://docs.phonegap.com/en/2.1.0/guide_getting-started_index.md.html
                     </script>
                 </section>
 
@@ -335,7 +434,7 @@
 
                 <section data-markdown>
                     <script type="text/template">
-                        # On Road Ahead
+                        # The Road Ahead
                     </script>
                 </section>
 
@@ -351,8 +450,8 @@
                         ## PhoneGap Build CLI
 
                         > A copycat of the Cordova CLI.<br/>
-                        > The command structure will be identical, but with a
-                        > few added commands for PhoneGap Build sugar.
+                        > The command structure will be identical, except
+                        > for some added sugar.
                     </script>
                 </section>
 
@@ -386,8 +485,8 @@
                         ## PhoneGap CLI
 
                         > PhoneGap CLI will be the go-to for most developers.
-                        > A sweet blend of both local and remote building of
-                        > PhoneGap applications.
+                        > A sweet blend of local and remote build options for
+                        > your PhoneGap application.
                     </script>
                 </section>
 
@@ -415,7 +514,7 @@
                     <script type="text/template">
                         ## Get Involved
 
-                        ### The Code
+                        ### <br/>The Code
 
                         github.com/filmaj/cordova-client [__»__](http://github.com/filmaj/cordova-client)
 
@@ -423,7 +522,7 @@
 
                         github.com/mwbrooks/phonegap-build-cli [__»__](http://github.com/mwbrooks/phonegap-build-cli)
 
-                        ### The Discussion
+                        ### <br/>The Discussion
 
                         Apache Cordova Dev Mailing List [__»__](http://markmail.org/search/?q=apache%20callback#query:apache%20callback%20list%3Aorg.apache.incubator.callback-dev+page:1+state:facets)
 
@@ -454,6 +553,7 @@
                 controls: true,
                 progress: true,
                 history: true,
+                mouseWheel: false,
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
                 // Optional libraries used to extend on reveal.js
