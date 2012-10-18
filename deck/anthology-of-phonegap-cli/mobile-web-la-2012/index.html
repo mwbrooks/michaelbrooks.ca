@@ -134,10 +134,14 @@
 
                         ### The Gunslingers
 
-                        > [Android](#) packed a powerful set of command-line tools
+                        > [Android][android] packed a powerful set of command-line tools
                         > but never offered a solid interface.
-                        > [iOS](#) was an Xcode IDE cowboy, toting zero command-line
-                        > skills. And then there were those [other bandits](#)...
+                        > [iOS][ios] was an Xcode IDE cowboy, toting zero command-line
+                        > skills. And then there were those [other bandits][symbian]...
+
+                        [android]: http://github.com/apache/incubator-cordova-android
+                        [ios]: http://github.com/apache/incubator-cordova-ios
+                        [symbian]: https://github.com/phonegap/phonegap-symbian.wrt
                     </script>
                 </section>
 
@@ -171,7 +175,7 @@
                         > Once upon a time,<br/>
                         > there was a small shop called [nitobi][nitobi].<br/>
                         > They loved building apps for people.<br/>
-                        > They hated build apps for devices.
+                        > They hated compiling apps for devices.
 
                         <img src="images/nitobi.jpg" style="width:325px;" />
 
@@ -304,7 +308,7 @@
                              \___  >____/|__|  \____ |\____/ \_/  (____  /
                                  \/         PhoneGap\/Project Toolchain\/
 
-                            $ phonegap create my-app ---www
+                            $ phonegap create my-app --www
 
                             $ cd my-app/
 
@@ -447,7 +451,8 @@
 
                         #### <br/>Install from source code
 
-                            $ npm link ./cordova
+                            $ git clone git://github.com/filmaj/cordova-client.git
+                            $ sudo npm link ./cordova-client
 
                         #### <br/>[And the Pesky SDKs][sdk]
 
@@ -564,6 +569,8 @@
                         > A copycat of the Cordova CLI.<br/>
                         > The command structure will be identical, except
                         > for some added sugar.
+
+                        #### [Github](http://github.com/mwbrooks/phonegap-build-cli)
                     </script>
                 </section>
 
@@ -600,6 +607,8 @@
                         > PhoneGap CLI will be the go-to for most developers.
                         > A sweet blend of local and remote build options for
                         > your PhoneGap application.
+
+                        #### [Github](http://github.com/mwbrooks/phonegap-cli)
                     </script>
                 </section>
 
