@@ -212,6 +212,7 @@ body {
 	font-family: monospace;
 	overflow: auto;
 	max-height: 400px;
+    padding:20px;
 }
 
 .reveal table th, 
