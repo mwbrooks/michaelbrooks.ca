@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>An Anthology of PhoneGap CLI</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content="A presentation on the anthoogy of the PhoneGap CLI" />
+        <meta name="author" content="Michael Brooks" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <!-- Font -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" />
+        <!-- Reveal.js -->
+        <link rel="stylesheet" type="text/css" href="css/reveal.css" />
+        <link rel="stylesheet" type="text/css" href="css/theme/default.css" id="theme" />
+        <!-- Syntax highlighting -->
+        <link rel="stylesheet" type="text/css" href="lib/css/zenburn.css" />
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+                <section data-markdown>
+                    <script type="text/template">
+                        # PhoneGap in 5 min
+
+                        #### Hack Paris 2012
+
+                        ### Michael Brooks</h3>
+
+                        ### [@mwbrooks][twitter]
+
+                        [twitter]: http://twitter.com/mwbrooks
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## This Guy
+
+                        ### Michael Brooks
+
+                        #### [@mwbrooks][twitter]
+
+                        <img src="images/mwbrooks.png" />
+
+                        <br/>
+
+                        #### Nitobi » Adobe
+
+                        #### PhoneGap » Apache Cordova
+
+                        [twitter]: http://twitter.com/mwbrooks
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## PhoneGap
+
+                        <img src="images/phonegap.png" style="width:325px;" />
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        <img src="images/picard.png" />
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Apache Cordova
+
+                        <img src="images/cordova.png" style="width:325px;" />
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## PhoneGap Build
+
+                        <img src="images/build-bot.png" style="width:325px;" />
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        # Thanks
+
+                        ### <br/>Michael Brooks
+
+                        ### [@mwbrooks](http://twitter.com/mwbrooks)
+
+                    </script>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                mouseWheel: false,
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/zoom-js/zoom.js', condition: function() { return !!document.body.classList; } },
+                    { src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+                    { src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } }
+                ]
+            });
+        </script>
+    </body>
+</html>
