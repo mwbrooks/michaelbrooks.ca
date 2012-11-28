@@ -1,12 +1,13 @@
 /*
     padding: 125px 10px 25px 10px;
  */
-.browser {
+.reveal .browser {
     z-index:100;
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
 }
-.browser-ui {
+
+.reveal .browser-ui {
     z-index:1;
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
@@ -26,7 +27,7 @@
                          bottom right;
 }
 
-.browser-fill {
+.reveal .browser-fill {
     z-index:-1;
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
@@ -35,7 +36,7 @@
     border-image: url(images/background.png) 125 10 25 10 repeat !important;
 }
 
-.browser-throbber {
+.reveal .browser-throbber {
     z-index:2;
     position:absolute;
     right: 5px;
