@@ -11,16 +11,15 @@
     z-index:1;
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
-
     background-image: url(images/top-left.png),
                       url(images/top-right.png),
                       url(images/bottom-left.png),
                       url(images/bottom-right.png);
     background-repeat: no-repeat;
-    background-size: 487px 123px,
-                     60px  123px,
-                     546px 22px,
-                     60px 22px;;
+    background-size: 487px 122px,
+                     60px  122px,
+                     546px 21px,
+                     60px 21px;;
     background-position: top left,
                          top right,
                          bottom left,
@@ -31,9 +30,8 @@
     z-index:-1;
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
-
-    border-width: 125px 10px 25px 10px !important;
-    border-image: url(images/background.png) 125 10 25 10 repeat !important;
+    border-width: 122px 6px 23px 6px !important;
+    border-image: url(images/background.png) 122 6 23 6 repeat !important;
 }
 
 .reveal .browser-throbber {
