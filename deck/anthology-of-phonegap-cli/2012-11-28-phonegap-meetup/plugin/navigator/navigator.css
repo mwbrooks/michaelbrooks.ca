@@ -3,7 +3,7 @@
 }
 
 .reveal .browser {
-    /*z-index:100;*/
+    z-index:0; /* Behind slides */
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
 }
