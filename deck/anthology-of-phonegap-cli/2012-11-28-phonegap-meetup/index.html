@@ -16,67 +16,13 @@
         <link rel="stylesheet" type="text/css" href="css/theme/default.css" id="theme" />
         <!-- Syntax highlighting -->
         <link rel="stylesheet" type="text/css" href="lib/css/zenburn.css" />
+        <!-- Netscape Navigator Chrome -->
+        <link rel="stylesheet" type="text/css" href="plugin/navigator/navigator.css" />
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
             document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
         </script>
-
-        <style type="text/css">
-            /*
-                padding: 125px 10px 25px 10px;
-             */
-            .browser {
-                z-index:100;
-                position:absolute;
-                top:0px; right:0px; bottom:0px; left:0px;
-            }
-            .browser-ui {
-                z-index:1;
-                position:absolute;
-                top:0px; right:0px; bottom:0px; left:0px;
-
-                background-image: url(images/navigator/top-left.png),
-                                  url(images/navigator/top-right.png),
-                                  url(images/navigator/bottom-left.png),
-                                  url(images/navigator/bottom-right.png);
-                background-repeat: no-repeat;
-                background-size: 487px 123px,
-                                 60px  123px,
-                                 546px 22px,
-                                 60px 22px;;
-                background-position: top left,
-                                     top right,
-                                     bottom left,
-                                     bottom right;
-            }
-
-            .browser-fill {
-                z-index:-1;
-                position:absolute;
-                top:0px; right:0px; bottom:0px; left:0px;
-
-                border-width: 125px 10px 25px 10px !important;
-                border-image: url(images/navigator/background.png) 125 10 25 10 repeat !important;
-            }
-
-            .browser-throbber {
-                z-index:2;
-                position:absolute;
-                right: 5px;
-                top: 43px;
-                width:49px;
-                height:49px;
-            }
-
-            .reveal .progress {
-                z-index:101;
-            }
-
-            .reveal .controls {
-                bottom: 15px;
-            }
-        </style>
 
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
@@ -84,10 +30,11 @@
     </head>
     <body>
         <div class="reveal">
+            <!-- Netscape Navigator -->
             <div class="browser">
                 <div class="browser-ui"></div>
                 <div class="browser-fill"></div>
-                <img src="images/navigator/throbber.gif" class="browser-throbber" />
+                <img src="plugin/navigator/images/throbber.gif" class="browser-throbber" />
             </div>
 
             <!-- Any section element inside of this container is displayed as a slide -->

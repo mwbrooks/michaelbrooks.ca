@@ -1,0 +1,53 @@
+/*
+    padding: 125px 10px 25px 10px;
+ */
+.browser {
+    z-index:100;
+    position:absolute;
+    top:0px; right:0px; bottom:0px; left:0px;
+}
+.browser-ui {
+    z-index:1;
+    position:absolute;
+    top:0px; right:0px; bottom:0px; left:0px;
+
+    background-image: url(images/top-left.png),
+                      url(images/top-right.png),
+                      url(images/bottom-left.png),
+                      url(images/bottom-right.png);
+    background-repeat: no-repeat;
+    background-size: 487px 123px,
+                     60px  123px,
+                     546px 22px,
+                     60px 22px;;
+    background-position: top left,
+                         top right,
+                         bottom left,
+                         bottom right;
+}
+
+.browser-fill {
+    z-index:-1;
+    position:absolute;
+    top:0px; right:0px; bottom:0px; left:0px;
+
+    border-width: 125px 10px 25px 10px !important;
+    border-image: url(images/background.png) 125 10 25 10 repeat !important;
+}
+
+.browser-throbber {
+    z-index:2;
+    position:absolute;
+    right: 5px;
+    top: 43px;
+    width:49px;
+    height:49px;
+}
+
+.reveal .progress {
+    z-index:101;
+}
+
+.reveal .controls {
+    bottom: 15px;
+}
