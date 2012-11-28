@@ -1,8 +1,9 @@
-/*
-    padding: 125px 10px 25px 10px;
- */
+.reveal .slides {
+    padding: 123px 7px 24px 7px;
+}
+
 .reveal .browser {
-    z-index:100;
+    /*z-index:100;*/
     position:absolute;
     top:0px; right:0px; bottom:0px; left:0px;
 }
