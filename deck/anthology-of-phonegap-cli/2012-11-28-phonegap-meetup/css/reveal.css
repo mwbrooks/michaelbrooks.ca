@@ -1056,4 +1056,17 @@ body {
 	display: none;
 }
 
+/*********************************************
+ * TABLES
+ *********************************************/
+
+.reveal table {
+    border-style: inset;
+    border-width: 2px; /* or whatever width you want */
+}
+
+.reveal table td {
+    border-style: inset;
+    border-width: 2px; /* or whatever width you want */
+}
 
