@@ -1,5 +1,5 @@
 .reveal .slides {
-    padding: 123px 7px 24px 7px;
+    padding: 50px 7px 24px 7px;
 }
 
 .reveal .browser {
@@ -50,4 +50,9 @@
 
 .reveal .controls {
     bottom: 15px;
+}
+
+.reveal section img {
+    box-shadow:none;
+    border:0px none;
 }
