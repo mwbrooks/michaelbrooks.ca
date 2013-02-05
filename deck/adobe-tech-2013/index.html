@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang='en'>
+
+    <head>
+        <meta charset='utf-8'>
+
+        <title>New Tools for PhoneGap</title>
+
+        <meta name='description' content='New Tools: Open Source Development with PhoneGap; Adobe Tech Summit 2013'>
+        <meta name='author' content='Michael Brooks'>
+
+        <meta name='apple-mobile-web-app-capable' content='yes' />
+        <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+
+        <link rel='stylesheet' href='css/reveal.min.css'>
+        <link rel='stylesheet' href='css/theme/adobe/adobe.css' id='theme'>
+
+        <!-- For syntax highlighting -->
+        <link rel='stylesheet' href='lib/css/zenburn.css'>
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel='stylesheet' href='css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css' type='text/css' media='print'>' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src='lib/js/html5shiv.js'></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div id='banner'>
+            <object id='banner-adobe' data='css/theme/adobe/banner-adobe.svg' type='image/svg+xml'></object>
+            <object id='banner-large' data='css/theme/adobe/banner-tech-summit-large.svg' type='image/svg+xml'></object>
+            <object id='banner-small' data='css/theme/adobe/banner-tech-summit-small.svg' type='image/svg+xml'></object>
+        </div>
+        
+        <div class='reveal'>
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class='slides'>
+
+                <section data-state='bg-red banner-large'>
+                    <h2>New Tools for PhoneGap</h2>
+                    <h4>michaelbrooks.ca/decks/adobe-tech-2013</h4>
+
+                    <aside class='notes'>
+                        Hello everyone!
+                        Following the on path of Open Source at Adobe, I'm going to
+                        elaborate on another one of Adobe's popular open source
+                        projects called PhoneGap. You'll not only learn about the history
+                        of the project but also how you can get involved in it.
+                    </aside>
+                </section>
+
+                <section class="align-right">
+                    <img src="img/mwbrooks-polaroid.png" class="align-left"/>
+
+                    <h2>About me</h2>
+
+                    <p>PhoneGap Developer</p>
+                    <p>Michael Brooks</p>
+                    <p class="fragment"><a href="http://twitter.com/mwbrooks">mwbrooks</a></p>
+                    <p class="fragment"><a href="mailto:mbrooks@adobe.com">mbrooks</a></p>
+
+                    <aside class='notes'>
+                        So, quickly a little bit about myself. My name is Michael Brooks and
+                        I'm a developer on the PhoneGap team. I've been working with PhoneGap
+                        for about four years and I've had my hands in on pretty much every aspect
+                        of the project. On the web, you can find me @mwbrooks
+                        and around Adobe I'm known as mbrooks.
+                    </aside>
+                </section>
+
+                <section class="align-right">
+                    <h2>About you</h2>
+
+                    <p class="fragment">Who has <span class="highlight">heard</span> of PhoneGap?</p>
+                    <p class="fragment">Who has <span class="highlight">used</span> of PhoneGap?</p>
+
+                    <aside class='notes'>
+                        But that's enough me. What's far more important is you.
+                        "Who here has heard of PhoneGap or Apache Cordova?"
+                        Okay...
+                        "And who here has used PhoneGap or Apache Cordova?"
+                        Well, by the end of this talk everyone will be able to
+                        to answer 'yes' to the first question and you'll be setup
+                        to get involved with the PhoneGap team.
+                    </aside>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>The PhoneGap Story</h2>
+
+                        <p class="fragment">code, <span class="highlight">community</span>, and beer</p>
+
+                        <aside class='notes'>
+                            So, let's begin with the story of PhoneGap.
+                            Just as a heads up, this is the condensed version and I'll hold
+                            back on the stories of our late nights, early mornings, and countless
+                            hacking in pubs.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <img src="img/nitobi.png" class="align-left-absolute" />
+
+                        <br/>
+                        <br/>
+                        <h2>Nitobi</h2>
+
+                        <p>Tiny <span class="highlight">web consultancy</span></p>
+                        <p>Vancouver, Canada</p>
+                        <p>Founded in <span class="highlight">1998</span></p>
+                        <br/>
+                        <br/>
+
+                        <aside class='notes'>
+                            The story of PhoneGap begins in 2008 in Vancouver, Canada.
+                            Here, in a sketchy part of the downtown district, you'll find
+                            a tiny web consultancy called Nitobi. For about a decade,
+                            Nitobi had been focused on the desktop web, but in 2008
+                            we decided to get into the mobile market.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Mobile Apps</h2>
+                        <p>Got into it in <span class="highlight">2008</span></p>
+                        <p class="fragment">Objective-C for <span class="highlight">iOS</span></p>
+                        <p class="fragment">Java Dalvik for <span class="highlight">Android</span></p>
+                        <p class="fragment">Java ME for <span class="highlight">BlackBerry</span></p>
+                        <p class="fragment">.NET for <span class="highlight">Windows CE</span></p>
+                        <p class="fragment">HTML for <span class="highlight">webOS</span></p>
+
+                        <aside class='notes'>
+                            To kick things off, we started learning how to create mobile applications.
+                            We learned Objective-C for iOS, Java Dalvik for Android,
+                            a different Java for BlackBerry, .NET for Windows CE, and thankfully
+                            HTML for webOS. It was a huge time investment and we noticed
+                            one frustrating fact: clients wanted the same application on every
+                            device.
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h3>People want the <span class="highlight">same app</span><br/>on every device.</h3>
+
+                        <aside class='notes'>
+                            "People wanted the same application on every device."
+                            This means developers are burning their time writing the same code
+                            in different languages. Personally, I like to write code, but I don't
+                            like to solve the same problem twice.
+                        </aside>
+                    </section>
+
+                    <section data-state="slide-web" class="align-right">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src="img/web.png" class="align-left-absolute" style="top:0px;" />
+
+                        <h2>Web</h2>
+
+                        <p><span class="highlight">Solved</span> this problem long ago</p>
+                        <p>Websites looks the same <span class="highlight">everywhere</span></p>
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <aside class='notes'>
+                            Coming from a web background, we thought the native
+                            SDK landscape was absurd. The web has solved this problem
+                            a long time ago. A website be accessed by any device with
+                            a browser. And... all smartphones have browsers. So, we have
+                            to ask ourselves: "Why are we not using the web for app development?"
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Web for Apps</h2>
+
+                        <p class="fragment">Not <span class="highlight">installable</span></p>
+                        <p class="fragment">No <span class="highlight">offline</span> mode</p>
+                        <p class="fragment">Limited <span class="highlight">funtionality</span></p>
+                        <p class="fragment">Browser <span class="highlight">quirks</span></p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <img src="img/phonegap.png" class="align-left-absolute" />
+
+                        <h2>PhoneGap</h2>
+
+                        <p>Can move the <span class="highlight">web forward</span></p>
+                        <p class="fragment">Installable web</p>
+                        <p class="fragment">Supports <span class="highlight">offline</span></p>
+                        <p class="fragment">Extended <span class="highlight">functionality</span></p>
+                        <p class="fragment"><span class="highlight">Polyfills</span> browsers</p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+
+                        <br/>
+                        <br/>
+                        <h2>How it works</h2>
+
+                        <div class="fragment">
+                            <p><span class="highlight">Native</span> application</span>
+                            <img src="img/phonegap-is-native.png" class="align-left-absolute" style="top:0px;" />
+                        </div>
+                        <div class="fragment">
+                            <p>Fullscreen <span class="highlight">browser</span></p>
+                            <img src="img/phonegap-is-browser.png" class="align-left-absolute" style="top:0px;" />
+                        </div>
+                        <div class="fragment">
+                            <p>Without an interface</p>
+                            <img src="img/phonegap-is-ui.png" class="align-left-absolute" style="top:0px;" />
+                        </div>
+                        <div class="fragment">
+                            <p>Loading a <span class="highlight">local HTML file</span></p>
+                            <img src="img/phonegap-is-html.png" class="align-left-absolute" style="top:0px;" />
+                        </div>
+                        <div class="fragment">
+                            <p>Binding <span class="highlight">JavaScript-to-Native</span></p>
+                        </div>
+                        <br/>
+                        <br/>
+
+                        <aside class='notes'>
+                            From this very problem, PhoneGap was born.
+                            As a concept, PhoneGap is extremely simple.
+                            It's a native application, such as iOS, Android, or even Windows or Mac;
+                            And it's simply an instance of a fullscreen browser;
+                            Without the chrome;
+                            That loads an HTML file bundled with the application.
+                            The result is an installable application built with web technology.
+                            It's that simple.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src="img/free-beer.png" class="align-left-absolute" style="top:0;"/>
+
+                        <h2>Open Sourced</h2>
+
+                        <p><span class="highlight">Free</span> as in <span class="highlight">beer</span> since 2008</p>
+                        <p>Licensed under <span class="highlight">MIT</span></p>
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Fast forward to 2011</h2>
+                        
+                        <p class="fragment"><span class="highlight">500,000</span> developers</p>
+                        <p class="fragment"><span class="highlight">30+</span> contributors</p>
+                        <div class="fragment">
+                            <p><span class="highlight">7</span> platforms</p>
+                            <img src="img/platforms.png" />
+                        </div>
+                        
+                        <aside class='notes'>
+                            Now let's fast-forward to 2011, skipping all of the late nights, beers,
+                            and some incredible hacks.
+                            We now have over half a million developers building applications and we support
+                            seven different platforms. This was done with a team of 20 people, most of whom
+                            were working on client work during the day and PhoneGap in the evening.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Apache Foundation</h2>
+                        
+                        <p>Donated <span class="highlight">PhoneGap</span></p>
+                        <p class="fragment">Renamed <span class="highlight">Apache Cordova</span></p>
+                        <div class="fragment">
+                            <p>Gained <span class="highlight">contributors</span></p>
+                            <img src="img/companies.png" />
+                        </div>
+
+                        <aside class='notes'>
+                            Near the end of 2011, a lot of that hard work paid off.
+                            We had the honour of donating PhoneGap to the Apache Foundation
+                            as Apache Cordova. We actually had Sam Ruby, the Director of Apache,
+                            put his name down as a sponsor for our project. By moving to Apache,
+                            we've opened a floodgate of contribution opportunities and now have
+                            companies such as Adobe, IBM, BlackBerry, Google, Microsoft, Mozilla,
+                            Sony, and Intel working full-time on our project. It's an absolute
+                            honour to work along side the people who built GMail, PHP, and the
+                            Apache Web Server.
+                        </aside>
+                    </section>
+
+                    <section>
+                        <img src="img/street.png" height="75%" />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <br/>
+                        <br/>
+                        <img src="img/adobe-team.png" class="align-left-absolute" style="top:0;" />
+
+                        <h2>Adobe</h2>
+
+                        <p>Acquired <span class="highlight">Nitobi</p></p>
+                        <p class="fragment">a shot of <span class="highlight">steroids</span> to the project</p>
+                        <br/>
+                        <br/>
+
+                        <aside class='notes'>
+                            And around the same time, we at Nitobi joined Adobe. This has
+                            essentially put the project on steroids because our team can now work
+                            full-time on open source. We also have access to Adobe's massive
+                            audience, knowledgeable evangelists, and awesome Web Platform team.
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- State of PhoneGap -->
+                <section>
+                    <section>
+                        <h2>PhoneGap Today</h2>
+                        
+                        <p class="fragment">in <span class="highlight">three</span> parts</p>
+
+                        <aside class='notes'>
+                            In a nutshell, that's how PhoneGap came to be.
+                            Today, PhoneGap is now composed of three components.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <img src="img/cordova.png" class="align-left-absolute" />
+
+                        <h4>Part one</h4>
+                        <h2>Apache Cordova</h2>
+
+                        <p>
+                            Framework to create apps with<br/>
+                            <span class="highlight">HTML</span>,
+                            <span class="highlight">CSS</span>, and
+                            <span class="highlight">JavaScript</span>
+                        </p>
+
+                        <aside class='notes'>
+                            First off is Apache Cordova, an open source project
+                            for creating application using HTML, CSS, and JavaScript.
+                            This is the original PhoneGap source code and best
+                            thought of as an engine analogous to WebKit.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <img src="img/phonegap.png" class="align-left-absolute" />
+
+                        <h4>Part two</h4>
+                        <h2>Adobe PhoneGap</h2>
+
+                        <p>Distribution of <span class="highlight">Apache Cordova</span></p>
+                        <p class="fragment">with added <span class="highlight">sugar</span></p>
+
+                        <aside class='notes'>
+                            Second is PhoneGap, an open source distribution of
+                            Apache Cordova with some added sugar. In many ways, you
+                            can think of this as Google Chrome with respect to WebKit.
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h4>Part three</h4>
+                        <h2>Adobe PhoneGap/Build</h2>
+
+                        <img src="img/build-bot.png" class="align-left-absolute" />
+
+                        <p>Cloud service for <span class="highlight">compiling</span> PhoneGap apps</p>
+
+                        <aside class='notes'>
+                            And third is PhoneGap/Build, an Adobe cloud service for
+                            compiling PhoneGap applications. A huge pain with PhoneGap
+                            is that you still need to compile the native code; PhoneGap/Build
+                            does this for you.
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- The Road Ahead -->
+                <section>
+                    <section>
+                        <h2>The Road Ahead</h2>
+                        <h4 class="fragment">is a <span class="highlight">tool</span> party</h2>
+                        
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <br />
+                        <br />
+                        <h2>PhoneGap works</h2>
+
+                        <h4 class="fragment">for <span class="highlight">applications</span></h2>
+                        <h4 class="fragment">for <span class="highlight">prototyping</span></h2>
+                        <h4 class="fragment">for <span class="highlight">academia</span></h2>
+
+                        <img src="img/c2.png" class="fragment align-left-absolute" style="top:0px;" />
+                        <br />
+                        <br />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>It still sucks</h2>
+
+                        <h4 class="fragment">for <span class="highlight">compiling</span></h2>
+                        <h4 class="fragment">for <span class="highlight">debugging</span></h2>
+                        <h4 class="fragment">for <span class="highlight">extending</span></h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h3>This is what <span class="highlight">good tooling</span> can solve.</h3>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- Node.js -->
+                <section>
+                    <section>
+                        <h2>Node.js</h2>
+                        <h4 class="fragment">is our <span class="highlight">goto</span> tool</h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Question</h2>
+
+                        <p class="fragment">Who here has <span class="highlight">used</span> of node.js?</p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <img src="img/js.png" class="align-left-absolute" />
+
+                        <h2>About</h2>
+
+                        <p><span class="highlight">JavaScript</span> runtime</p>
+                        <p>Similar to <span class="highlight">Ruby</span> or <span class="highlight">Python</span></p>
+                        <p>Nothing <span class="highlight">to do with</span> the browser</p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <img src="img/node-installing.png" class="align-left-absolute" style="top:0;"/>
+                        <h2>Installing</h2>
+
+                        <p>too quick for a <span class="highlight">beer</p>
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Writing</h2>
+                        <img src="img/node-writing.png" />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Running</h2>
+                        <img src="img/node-running.png" />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h3>There's more, <span class="highlight">but that's enough</span> to get up and running.</h3>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- Compiling Sucks -->
+                <section>
+                    <section>
+                        <h2>Compiling Sucks</h2>
+                        <h4 class="fragment">we <span class="highlight">can fix</span> that</h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Cordova CLI</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/cordova-installing.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Cordova CLI</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/cordova-running.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Cordova CLI</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/cordova-writing.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>PhoneGap Build CLI</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/build-installing.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>PhoneGap Build CLI</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/build-running.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>PhoneGap Build CLI</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/build-writing.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>PhoneGap CLI</h2>
+
+                        <p>Does everything <span class="highlight">locally</span> or <span class="highlight">remotely</span></p>
+                        <p><small>(coming soon)</small></p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                </section>
+
+                <!-- Debugging Sucks -->
+                <section>
+                    <section>
+                        <h2>Debugging Sucks</h2>
+                        <h4 class="fragment">we <span class="highlight">can fix</span> that</h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Weinre</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/weinre-installing.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Weinre</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/weinre-running.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Weinre</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/weinre-example.png" height="75%" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Medic</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/medic-installing.png" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Medic</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/devicewall.png" height="75%" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Medic</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/medic-personal.png" height="75%" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Medic</h2>
+
+                        <div style="text-align:center;">
+                            <img src="img/medic-page.png" height="75%" />
+                        </div>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- Extending Sucks -->
+                <section>
+                    <section>
+                        <h2>Extending Sucks</h2>
+                        <h4 class="fragment">we <span class="highlight">can fix</span> that</h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <img src="img/plugman.png" class="align-left-absolute" />
+
+                        <h2>Plugman</h2>
+
+                        <p>Plugin management</p>
+                        <p><a href="#">Source code on Github</a></p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <h2>Plugman</h2>
+                        <h4><span class="highlight">Embedding</span> into PhoneGap</h4>
+
+                        <img src="img/plugman-usage.png" />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- Command-Line Sucks -->
+                <section>
+                    <section>
+                        <h2>Command-Line Sucks</h2>
+                        <h4 class="fragment"><span class="highlight">fair enough</span></h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h3>Web servers <span class="highlight">can serve up</span> a GUI.</h3>
+
+                        <img src="img/express.png" />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+
+                    <section class="align-right">
+                        <br />
+                        <br />
+                        <img src="img/gui.png" class="align-left-absolute" />
+
+                        <h2>GUI</h2>
+
+                        <p>Installable</p>
+                        <p><span class="highlight">HTML interface</span></p>
+                        <p>Uses the CLI tools</p>
+                        <p><small>(mockup image)</small></p>
+                        <br />
+                        <br />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- 100% Open Source -->
+                <section>
+                    <section>
+                        <h2>100% Open Source</h2>
+                        <h4 class="fragment">so <span class="highlight">jump in</span> and <span class="highlight">help out</span></h2>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- Adobe -->
+                <section>
+                    <section>
+
+                        <img src="img/adobe-white.png" style="width:128px;height:128px;" />
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+                <!-- Link -->
+                <section>
+                    <section>
+
+                        <h2>Links</h2>
+                        <p><a href="http://github.com/apache/cordova-cli">Cordova CLI</a></p>
+                        <p><a href="https://github.com/mwbrooks/phonegap-build-cli">PhoneGap Build CLI</a></p>
+                        <p><a href="http://people.apache.org/~pmuellr/weinre/">Weinre</a></p>
+                        <p><a href="http://github.com/filmaj/medic">Medic</a></p>
+                        <p><a href="http://ci.cordova.io">Medic Dashboard</a></p>
+                        <p><a href="https://github.com/imhotep/plugman">Plugman</a></p>
+
+                        <aside class='notes'>
+                        </aside>
+                    </section>
+                </section>
+
+            </div>
+
+        </div>
+
+        <script src='lib/js/head.min.js'></script>
+        <script src='js/reveal.min.js'></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
