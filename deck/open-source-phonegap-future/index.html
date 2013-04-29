@@ -20,6 +20,17 @@
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
 
+        <style type="text/css">
+            .reveal section img {
+                background:none;
+                border:none;
+                box-shadow:none;
+            }
+            .highlight {
+                color:#a5c261;
+            }
+        </style>
+
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
             document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -54,7 +65,7 @@
                          - Vancouver
                          - San Francisco
                     -->
-                    <img src="todo.png" />
+                    <p>Adobe, <span class="highlight">PhoneGap</span>, Vancouver.</p>
                 </section>
 
                 <section>
@@ -65,27 +76,27 @@
                     - always getting better
                     - mozilla video
                     -->
-                    <img src="todo-html5-logo.png" />
-                    <img src="todo-macbook.png" />
-                    <img src="todo-thinkpad.png" />
-                    <img src="todo-mozilla-video.png" />
+                    <p><span class="fragment">easy to code</span><span class="fragment highlight">, works everywhere</span><span class="fragment">, and always improving.</span></p>
                 </section>
 
                 <section>
-                    <h2>The Web is Also Terrible</h2>
+                    <iframe width="560" height="315" src="http://www.youtube.com/embed/mIYmxPdtsl4" frameborder="0" allowfullscreen></iframe>
+                </section>
+
+                <section>
+                    <h2>The Web is Also Sucks</h2>
                     <!-- 
                     - stuck in a browser
                     - lacks functionality
                     -->
-                    <img src="todo-browser.png" />
-                    <img src="todo-functionality.png" />
+                    <p><span class="fragment">Stuck in browser</span><span class="fragment highlight">, lacks functionality</span><span class="fragment">, and is slow.</span>
                 </section>
 
-                <section>
+                <section data-state="blackout">
                     <!-- 
                     - what if I told you... that we make the web better.
                     -->
-                    <img src="todo-whatif.png" />
+                    <img src="img/what-if-i-told-you.jpg" />
                 </section>
 
                 <section>
@@ -95,8 +106,40 @@
                     - installable
                     - extra features
                     - mobile with desktop in the works
+                    @TODO make a what is phonegap with the example
+                    @TODO add platforms
                     -->
-                    <img src="todo.png" />
+                    <img src="img/phonegap.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is PhoneGap?</h2>
+                    <img src="img/phonegap-is-native.png" class="fragment" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is PhoneGap?</h2>
+                    <img src="img/phonegap-is-browser.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is PhoneGap?</h2>
+                    <img src="img/phonegap-is-ui.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is PhoneGap?</h2>
+                    <img src="img/phonegap-is-html.png" />
+                </section>
+
+                <section>
+                    <h2>PhoneGap works on</h2>
+                    <img src="img/platforms.png" />
+                </section>
+
+                <section>
+                    <h2>Who is using PhoneGap?</h2>
+                    <img src="img/companies.png" />
                 </section>
 
                 <section>
@@ -114,36 +157,23 @@
                 </section>
 
                 <section>
-                    <h2>PhoneGap is Standards Friendly</h2>
-                    <!-- 
-                    - Compatible with the web standards
-                    - Your feedback influences the W3C
-                    -->
-                    <img src="todo-crazy-dude.png" />
-                </section>
-
-                <section>
-                    <h2>What does all of this mean for you?</h2>
-                    <!-- 
-                    1. Use the web to create your ideas
-                    2. Publish your work in app stores
-                    3. Make money $$$
-                    -->
-                    <img src="todo.png" />
-                </section>
-
-                <section>
-                    <h2>Who is using PhoneGap?</h2>
-                    <img src="todo-companies.png" />
-                </section>
-
-                <section>
                     <h2>PhoneGap is Open Sourced</h2>
-                    <ul>
-                        <li class="fragment">in the automotive industry, Toyota...</li>
-                        <li class="fragment">in the film industry, Pixar...</li>
-                        <li class="fragment">in the school system, St. George...</li>
-                    </ul>
+                    <img src="img/free-beer.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is Open Source?</h2>
+                    <img src="img/toyota.png" class="fragment" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is Open Source?</h2>
+                    <img src="img/pixar.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>What is Open Source?</h2>
+                    <img src="img/highschool.png" />
                 </section>
 
                 <section>
@@ -154,45 +184,62 @@
                     - issue tracker: issue tracker is open
                     - meritocracy: do good work and get more power
                     -->
-                    <p>source code, mailing list, issue tracker, and meritocracy.</p>
+                    <p><span class="fragment">source code</span><span class="fragment highlight">, mailing list</span><span class="fragment">, and issue tracker.</span></p>
                 </section>
 
-                <section>
-                    <h2>Open Source is Good for Software</h2>
-                    <!--
-                    - competitors become allies
-                    - products solve harder problems
-                    -->
-                    <p>competitors becomes allies. products can solve harder problems.</p>
-                    <img src="todo-broken.png" />
-                </section>
-
-                <section>
+                <section data-transition="fade">
                     <h2>Open Source is Good for You</h2>
-                    <!--
-                    - living portfolio
-                    - job offers, books, presentations, gifts (beer/cards)
-                    -->
-                    <img src="todo-broken.png" />
+                    <img src="img/github.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>Open Source is Good for You</h2>
+                    <img src="img/book.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>Open Source is Good for You</h2>
+                    <img src="img/presentation.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>Open Source is Good for You</h2>
+                    <img src="img/gifts.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>Open Source is Good for You</h2>
+                    <img src="img/card.png" />
+                </section>
+
+                <section data-transition="fade">
+                    <h2>Open Source is Good for You</h2>
+                    <img src="img/job.png" />
                 </section>
 
                 <section>
                     <h2>Oh, and about your future</h2>
+                </section>
+
+                <section>
+                    <h2>University degrees still matter</h2>
                     <!--
                     - As a programmer, University degrees are still important
                     - Medium to large companies still base salary on that piece of paper
                     - But everyone has a degree
                     -->
-                    <img src="todo-broken.png" />
+                    <p>Companies still base <span class="highlight">salary</span> on a piece of paper.</p>
+                    <p class="fragment" style="color:#CCCCCC;">And everyone has it.</p>
                 </section>
 
                 <section>
-                    <h2>Our co-ops job posting</h2>
+                    <h2>Code speaks volumes</h2>
                     <!--
                     - sample
                     - no where did I ask for a paper resume
                     -->
-                    <img src="todo-broken.png" />
+                    <img src="img/intern.png" />
+                    <h4>*Snippet of Adobe co-op job posting</h4>
                 </section>
 
                 <section>
@@ -201,7 +248,7 @@
                     - Use open source to showcase your work
                     - Just pick a popular project and contribute minor bug fixes
                     -->
-                    <img src="todo-broken.png" />
+                    <h4><a href="http://github.com">github.com/yourname</a></h4>
                 </section>
 
                 <section>
