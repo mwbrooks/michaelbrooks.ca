@@ -1,0 +1,623 @@
+THelloCordova
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HelloCordova/Resources/icons/icon-72.png build/HelloCordova.app/icon-72.png
+cCpResource HelloCordova/config.xml build/HelloCordova.app/config.xml
+cCpResource HelloCordova/Resources/icons/icon.png build/HelloCordova.app/icon.png
+cCpResource HelloCordova/Resources/icons/icon@2x.png build/HelloCordova.app/icon@2x.png
+cCpResource HelloCordova/Resources/Capture.bundle build/HelloCordova.app/Capture.bundle
+cCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings HelloCordova/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib
+cCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings HelloCordova/Resources/se.lproj/Localizable.strings
+cCpResource HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png build/HelloCordova.app/Default-Landscape@2x~ipad.png
+cCpResource HelloCordova/Resources/splash/Default-Landscape~ipad.png build/HelloCordova.app/Default-Landscape~ipad.png
+cCpResource HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png build/HelloCordova.app/Default-Portrait@2x~ipad.png
+cCpResource HelloCordova/Resources/splash/Default-Portrait~ipad.png build/HelloCordova.app/Default-Portrait~ipad.png
+cCpResource HelloCordova/Resources/splash/Default@2x~iphone.png build/HelloCordova.app/Default@2x~iphone.png
+cCpResource HelloCordova/Resources/splash/Default~iphone.png build/HelloCordova.app/Default~iphone.png
+cCpResource HelloCordova/Resources/splash/Default-568h@2x~iphone.png build/HelloCordova.app/Default-568h@2x~iphone.png
+cCpResource HelloCordova/Resources/icons/icon-72@2x.png build/HelloCordova.app/icon-72@2x.png
+cProcessPCH /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.pth HelloCordova/HelloCordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova normal i386
+cGenerateDSYMFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova
+cTouch /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000513E6A100000000000000110
+t1363044880
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005147EFF300000000001EB540
+t1363668979
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005147EFF200000000000C1030
+t1363668978
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005147EFF20000000000193640
+t1363668978
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005147EFF200000000000226E0
+t1363668978
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005147EFF200000000003D4DF0
+t1363668978
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005147EFF30000000000215DB0
+t1363668979
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005147EFF30000000000228FE0
+t1363668979
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005147EFF3000000000009C590
+t1363668979
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005147EFF30000000000085620
+t1363668979
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005147EFF500000000003DDFA0
+t1363668981
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005147EFF900000000002DBA50
+t1363668985
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005147EFFA00000000000BCC20
+t1363668986
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005147EFFB00000000001D5750
+t1363668987
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005147EFFC000000000006CC50
+t1363668988
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005147EFFE0000000000AB6230
+t1363668990
+s11231792
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m
+c00000000517E8A6600000000000013DE
+t1367247462
+s5086
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m
+c00000000517E8A66000000000000126D
+t1367247462
+s4717
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib
+c00000000517E8A650000000000001759
+t1367247461
+s5977
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/HelloCordova-Prefix.pch
+c00000000517E8A6600000000000003C9
+t1367247462
+s969
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/Capture.bundle
+c00000000517E8A66000000000000030E
+t1367247462
+s782
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings
+c00000000517E8A660000000000000485
+t1367247462
+s1157
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings
+c00000000517E8A660000000000000470
+t1367247462
+s1136
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/es.lproj/Localizable.strings
+c00000000517E8A66000000000000047D
+t1367247462
+s1149
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon-72.png
+c00000000517E8A660000000000001350
+t1367247462
+s4944
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png
+c00000000517E8A660000000000002DBA
+t1367247462
+s11706
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon.png
+c00000000517E8A660000000000000F3E
+t1367247462
+s3902
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon@2x.png
+c00000000517E8A660000000000001EBD
+t1367247462
+s7869
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/se.lproj/Localizable.strings
+c00000000517E8A660000000000000471
+t1367247462
+s1137
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png
+c00000000517E8A6600000000000085B1
+t1367247462
+s34225
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000517E8A660000000000012DF4
+t1367247462
+s77300
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png
+c00000000517E8A660000000000008877
+t1367247462
+s34935
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000517E8A660000000000012B02
+t1367247462
+s76546
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png
+c00000000517E8A6600000000000085E6
+t1367247462
+s34278
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png
+c00000000517E8A660000000000007323
+t1367247462
+s29475
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png
+c00000000517E8A66000000000000289A
+t1367247462
+s10394
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/config.xml
+c00000000517E8A72000000000000085C
+t1367247474
+s2140
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m
+c00000000517E8A66000000000000045E
+t1367247462
+s1118
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Capture.bundle
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default~iphone.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Info.plist
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/MainViewController.nib
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/PkgInfo
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/config.xml
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon-72.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon-72@2x.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon@2x.png
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/HelloCordova.LinkFileList
+c00000000517E8A82000000000000028E
+t1367247490
+s654
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+c00000000517E8A82000000000000051A
+t1367247490
+s1306
+
+N/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/libCordova.a
+c00000000517E8A820000000000363C18
+t1367247490
+s3554328
+
+N/var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.pth
+t2
+s0
+
+NHelloCordova/HelloCordova-Info.plist
+c00000000517E8A720000000000000744
+t1367247474
+s1860
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb20dc402c22eb741^5abdd702c22eb741^---0#1#0#--18"Check dependencies36"F87FF6AC-4431-438B-9AFE-6B20EEE2A16B-
+
+CCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388940298.599485
+e388940298.878919
+r1
+xCompileC
+xbuild/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m8ba8990ac22eb741^43ffe00ac22eb741^-828"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-388940298#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-388940298#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@172"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@168"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@168"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m0000000000000000^5097"CompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o HelloCordova/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/usr/local/lib/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/UninstalledProducts/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -include /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.dia -c /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/AppDelegate.m -o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/AppDelegate.o36"61C43F63-C578-417A-AEF4-B9E7B3328705-
+
+CCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388940298.600048
+e388940298.876414
+r1
+xCompileC
+xbuild/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Compile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m4cc6990ac22eb741^085be00ac22eb741^---0#0#0#-19%DVTDocumentLocation2@175"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m0000000000000000^5139"CompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o HelloCordova/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/usr/local/lib/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/UninstalledProducts/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -include /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.dia -c /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.m -o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/MainViewController.o36"7A2286DD-24FE-4E52-AFEA-E503FFCEE679-
+
+CCompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388940298.599471
+e388940298.674127
+r1
+xCompileC
+xbuild/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m01a1990ac22eb741^d6a7ac0ac22eb741^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m0000000000000000^5039"CompileC build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o HelloCordova/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/usr/local/lib/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/UninstalledProducts/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -include /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch -MMD -MT dependencies -MF /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.dia -c /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/main.m -o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/main.o36"E68B84EC-8A90-49FD-A457-ACFFEA8A0910-
+
+CCompileXIB /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib
+s388940291.065587
+e388940298.077314
+r1
+xCompileXIB
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Compiling /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib1c231103c22eb741^5bb3150ac22eb741^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib0000000000000000^1521"CompileXIB HelloCordova/Classes/MainViewController.xib    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/MainViewController.nib /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"3BADAF96-31E9-4F88-877F-D20A0820335B-
+
+CCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings
+s388940291.072793
+e388940291.356662
+r1
+xCopyStringsFile
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/de.lproj/Localizable.strings
+xHelloCordova/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/de.lproj/Localizable.strings04c61203c22eb741^774e5b03c22eb741^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/de.lproj/Localizable.strings0000000000000000^1111"CopyStringsFile build/HelloCordova.app/de.lproj/Localizable.strings HelloCordova/Resources/de.lproj/Localizable.strings    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/de.lproj -- HelloCordova/Resources/de.lproj/Localizable.strings36"159797FD-F51E-4925-AA7D-A901A4416A2C-
+
+CCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings
+s388940291.061135
+e388940291.356184
+r1
+xCopyStringsFile
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/en.lproj/Localizable.strings
+xHelloCordova/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/en.lproj/Localizable.strings2ec70f03c22eb741^ae2e5b03c22eb741^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/en.lproj/Localizable.strings0000000000000000^1111"CopyStringsFile build/HelloCordova.app/en.lproj/Localizable.strings HelloCordova/Resources/en.lproj/Localizable.strings    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/en.lproj -- HelloCordova/Resources/en.lproj/Localizable.strings36"03829426-01BF-4FE7-A583-8A908CB051E7-
+
+CCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings HelloCordova/Resources/es.lproj/Localizable.strings
+s388940291.063828
+e388940291.356422
+r1
+xCopyStringsFile
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/es.lproj/Localizable.strings
+xHelloCordova/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/es.lproj/Localizable.strings8a731003c22eb741^5c3d5b03c22eb741^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/es.lproj/Localizable.strings0000000000000000^1111"CopyStringsFile build/HelloCordova.app/es.lproj/Localizable.strings HelloCordova/Resources/es.lproj/Localizable.strings    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/es.lproj -- HelloCordova/Resources/es.lproj/Localizable.strings36"2B03C343-948F-4A61-95DA-34C91DDD1AF2-
+
+CCopyStringsFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings HelloCordova/Resources/se.lproj/Localizable.strings
+s388940291.357451
+e388940291.411875
+r1
+xCopyStringsFile
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/se.lproj/Localizable.strings
+xHelloCordova/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy HelloCordova/Resources/se.lproj/Localizable.strings179a5b03c22eb741^3f706903c22eb741^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/se.lproj/Localizable.strings0000000000000000^1111"CopyStringsFile build/HelloCordova.app/se.lproj/Localizable.strings HelloCordova/Resources/se.lproj/Localizable.strings    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/se.lproj -- HelloCordova/Resources/se.lproj/Localizable.strings36"CCBE5080-3651-4DDE-9C83-12D4CA4381AE-
+
+CCpResource HelloCordova/Resources/Capture.bundle build/HelloCordova.app/Capture.bundle
+s388940291.061117
+e388940291.071425
+r1
+xCpResource
+xHelloCordova/Resources/Capture.bundle
+xbuild/HelloCordova.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/HelloCordova.app/Capture.bundlef9bb0f03c22eb741^ef8c1203c22eb741^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Capture.bundle000000000080d041^1192"CpResource HelloCordova/Resources/Capture.bundle build/HelloCordova.app/Capture.bundle    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/Capture.bundle /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"69092336-64DE-471A-B130-384E1DDE90B8-
+
+CCpResource HelloCordova/Resources/icons/icon-72.png build/HelloCordova.app/icon-72.png
+s388940291.057022
+e388940291.060981
+r1
+xCpResource
+xHelloCordova/Resources/icons/icon-72.png
+xbuild/HelloCordova.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/HelloCordova.app/icon-72.png63b80e03c22eb741^a69c0f03c22eb741^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon-72.png000000000080d041^1195"CpResource HelloCordova/Resources/icons/icon-72.png build/HelloCordova.app/icon-72.png    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon-72.png /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"2C1D7C5B-7864-4314-97D9-8714E798B441-
+
+CCpResource HelloCordova/Resources/icons/icon-72@2x.png build/HelloCordova.app/icon-72@2x.png
+s388940291.377605
+e388940291.380977
+r1
+xCpResource
+xHelloCordova/Resources/icons/icon-72@2x.png
+xbuild/HelloCordova.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/HelloCordova.app/icon-72@2x.png0cca6003c22eb741^83876103c22eb741^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon-72@2x.png000000000080d041^1210"CpResource "HelloCordova/Resources/icons/icon-72@2x.png" "build/HelloCordova.app/icon-72@2x.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"F2075D80-E335-4783-BCAB-30E3B1680EBA-
+
+CCpResource HelloCordova/Resources/icons/icon.png build/HelloCordova.app/icon.png
+s388940291.057487
+e388940291.062517
+r1
+xCpResource
+xHelloCordova/Resources/icons/icon.png
+xbuild/HelloCordova.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/HelloCordova.app/icon.pngc4d00e03c22eb741^60011003c22eb741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon.png000000000080d041^1186"CpResource HelloCordova/Resources/icons/icon.png build/HelloCordova.app/icon.png    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon.png /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"89DEC93E-0B29-4317-AFCB-41D4F2C9BD2C-
+
+CCpResource HelloCordova/Resources/icons/icon@2x.png build/HelloCordova.app/icon@2x.png
+s388940291.057729
+e388940291.063700
+r1
+xCpResource
+xHelloCordova/Resources/icons/icon@2x.png
+xbuild/HelloCordova.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/HelloCordova.app/icon@2x.png4be40e03c22eb741^1a4f1003c22eb741^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/icon@2x.png000000000080d041^1201"CpResource "HelloCordova/Resources/icons/icon@2x.png" "build/HelloCordova.app/icon@2x.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/icons/icon@2x.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"1CE33E6C-D97F-462D-BE86-CE51BCFB4B3C-
+
+CCpResource HelloCordova/Resources/splash/Default-568h@2x~iphone.png build/HelloCordova.app/Default-568h@2x~iphone.png
+s388940291.376132
+e388940291.379305
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default-568h@2x~iphone.png
+xbuild/HelloCordova.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/HelloCordova.app/Default-568h@2x~iphone.png1f696003c22eb741^5c1c6103c22eb741^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-568h@2x~iphone.png000000000080d041^1248"CpResource "HelloCordova/Resources/splash/Default-568h@2x~iphone.png" "build/HelloCordova.app/Default-568h@2x~iphone.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"FC76B0C8-FB26-4318-9E2A-81BAA6E1C98D-
+
+CCpResource HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png build/HelloCordova.app/Default-Landscape@2x~ipad.png
+s388940291.357459
+e388940291.361728
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/HelloCordova.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/HelloCordova.app/Default-Landscape@2x~ipad.png51a05b03c22eb741^999a5c03c22eb741^---0#0#0#-19%DVTDocumentLocation2@186"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Landscape@2x~ipad.png000000000080d041^1257"CpResource "HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" "build/HelloCordova.app/Default-Landscape@2x~ipad.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"C84ACE8E-CA86-4028-80CB-CB729EC4AD65-
+
+CCpResource HelloCordova/Resources/splash/Default-Landscape~ipad.png build/HelloCordova.app/Default-Landscape~ipad.png
+s388940291.357985
+e388940291.362281
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default-Landscape~ipad.png
+xbuild/HelloCordova.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/HelloCordova.app/Default-Landscape~ipad.png4eb85b03c22eb741^83be5c03c22eb741^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Landscape~ipad.png000000000080d041^1248"CpResource "HelloCordova/Resources/splash/Default-Landscape~ipad.png" "build/HelloCordova.app/Default-Landscape~ipad.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"171A74D8-A673-4D5A-B012-096B7B0037B2-
+
+CCpResource HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png build/HelloCordova.app/Default-Portrait@2x~ipad.png
+s388940291.362925
+e388940291.366379
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/HelloCordova.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/HelloCordova.app/Default-Portrait@2x~ipad.pngcd065d03c22eb741^3ace5d03c22eb741^---0#0#0#-19%DVTDocumentLocation2@185"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Portrait@2x~ipad.png000000000080d041^1254"CpResource "HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" "build/HelloCordova.app/Default-Portrait@2x~ipad.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"2CABF2A3-4B79-4A1C-875D-112DDF806F5F-
+
+CCpResource HelloCordova/Resources/splash/Default-Portrait~ipad.png build/HelloCordova.app/Default-Portrait~ipad.png
+s388940291.362939
+e388940291.365689
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default-Portrait~ipad.png
+xbuild/HelloCordova.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/HelloCordova.app/Default-Portrait~ipad.png22ff5c03c22eb741^959e5d03c22eb741^---0#0#0#-19%DVTDocumentLocation2@182"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default-Portrait~ipad.png000000000080d041^1245"CpResource "HelloCordova/Resources/splash/Default-Portrait~ipad.png" "build/HelloCordova.app/Default-Portrait~ipad.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"469C5D27-3774-422E-9C68-F084D99AA165-
+
+CCpResource HelloCordova/Resources/splash/Default@2x~iphone.png build/HelloCordova.app/Default@2x~iphone.png
+s388940291.367978
+e388940291.374851
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default@2x~iphone.png
+xbuild/HelloCordova.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/HelloCordova.app/Default@2x~iphone.png50545e03c22eb741^a1f65f03c22eb741^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default@2x~iphone.png000000000080d041^1233"CpResource "HelloCordova/Resources/splash/Default@2x~iphone.png" "build/HelloCordova.app/Default@2x~iphone.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"F8C51D73-9A15-42F7-A321-CD867C099D95-
+
+CCpResource HelloCordova/Resources/splash/Default~iphone.png build/HelloCordova.app/Default~iphone.png
+s388940291.369391
+e388940291.376424
+r1
+xCpResource
+xHelloCordova/Resources/splash/Default~iphone.png
+xbuild/HelloCordova.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/HelloCordova.app/Default~iphone.pnge2775f03c22eb741^965d6003c22eb741^---0#0#0#-19%DVTDocumentLocation2@175"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Default~iphone.png000000000080d041^1224"CpResource "HelloCordova/Resources/splash/Default~iphone.png" "build/HelloCordova.app/Default~iphone.png"    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"AB41910E-28D7-4F9D-B23C-FCAED785E0DB-
+
+CCpResource HelloCordova/config.xml build/HelloCordova.app/config.xml
+s388940291.057031
+e388940291.059852
+r1
+xCpResource
+xHelloCordova/config.xml
+xbuild/HelloCordova.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/HelloCordova.app/config.xml02bb0e03c22eb741^97520f03c22eb741^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/config.xml000000000080d041^1160"CpResource HelloCordova/config.xml build/HelloCordova.app/config.xml    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/config.xml /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"D43A19DF-DECF-4606-B9C0-867FA9B7F978-
+
+CGenerateDSYMFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova
+s388940301.610666
+e388940302.796867
+r1
+xGenerateDSYMFile
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Generate /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM446c9c0dc22eb741^b0fecb0ec22eb741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM000000000080d041^1180"GenerateDSYMFile build/HelloCordova.app.dSYM build/HelloCordova.app/HelloCordova    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova -o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app.dSYM36"723E998C-7C9B-47F3-BCA6-EFAE8B74CA05-
+
+CLd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova normal i386
+s388940298.886063
+e388940301.602801
+r1
+xLd
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Link /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova9d68e30ac22eb741^1e509a0dc22eb741^---0#0#0#--2438"Ld build/HelloCordova.app/HelloCordova normal i386    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -F/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -filelist /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/HelloCordova.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/HelloCordova36"640885EF-5C0E-4931-99D8-E00DF3F0A521-
+
+CPhaseScriptExecution "Copy www directory" /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+s388940290.870519
+e388940291.048811
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.156s
+ouser	0m0.032s
+osys	0m0.083s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'f4fedf02c22eb741^027f0c03c22eb741^-42"real	0m0.156suser	0m0.032ssys	0m0.083s3(21%IDEActivityLogMessage2@14"real	0m0.156s-388940291#1#14#-0#-----2@14"user	0m0.032s-388940291#15#14#-0#-----2@13"sys	0m0.083s-388940291#29#13#-0#-----0#0#0#--24672"PhaseScriptExecution "Copy www directory" build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER mwbrooks    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv BUILD_ROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv CACHE_ROOT /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH HelloCordova.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/mwbrooks/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH HelloCordova.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/HelloCordova.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME HelloCordova.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH HelloCordova.app/Executables    setenv EXECUTABLE_FOLDER_PATH HelloCordova.app    setenv EXECUTABLE_NAME HelloCordova    setenv EXECUTABLE_PATH HelloCordova.app/HelloCordova    setenv FILE_LIST /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH HelloCordova.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME HelloCordova.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER HelloCordova/HelloCordova-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include\" \"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/usr/local/lib/include\" \"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/UninstalledProducts/include\" \"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE HelloCordova/HelloCordova-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH HelloCordova.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH HelloCordova.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/HelloCordova.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER mwbrooks    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/HelloCordova.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH HelloCordova.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal/i386/HelloCordova.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH HelloCordova.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Objects-normal    setenv OBJROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH HelloCordova.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/mwbrooks/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/PkgInfo    setenv PKGINFO_PATH HelloCordova.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH HelloCordova.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH HelloCordova.app/PrivateHeaders    setenv PRODUCT_NAME HelloCordova    setenv PRODUCT_SETTINGS_PATH /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/HelloCordova-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT HelloCordova    setenv PROJECT_DERIVED_FILE_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/DerivedSources    setenv PROJECT_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PROJECT_FILE_PATH /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova.xcodeproj    setenv PROJECT_NAME HelloCordova    setenv PROJECT_TEMP_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build    setenv PROJECT_TEMP_ROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH HelloCordova.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH HelloCordova.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH HelloCordova.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH HelloCordova.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv SRCROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME HelloCordova    setenv TARGET_BUILD_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv TARGET_NAME HelloCordova    setenv TARGET_TEMP_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_FILES_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_FILE_DIR /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build    setenv TEMP_ROOT /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HelloCordova.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER mwbrooks    setenv USER_APPS_DIR /Users/mwbrooks/Applications    setenv USER_LIBRARY_DIR /Users/mwbrooks/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH HelloCordova.app/version.plist    setenv VERSION_INFO_BUILDER mwbrooks    setenv VERSION_INFO_FILE HelloCordova_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HelloCordova  PROJECT:HelloCordova-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME HelloCordova.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H512    setenv XCODE_VERSION_ACTUAL 0461    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/Script-304B58A110DAC018002A0835.sh36"46755314-46BB-415F-A804-C9E314A9106D-
+
+CProcessInfoPlistFile /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist
+s388940290.849841
+e388940290.862852
+r1
+xProcessInfoPlistFile
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Info.plist
+xHelloCordova/HelloCordova-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process HelloCordova/HelloCordova-Info.plist9ca8d902c22eb741^15e3dc02c22eb741^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/HelloCordova-Info.plist0000000000000000^1232"ProcessInfoPlistFile build/HelloCordova.app/Info.plist HelloCordova/HelloCordova-Info.plist    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    builtin-infoPlistUtility HelloCordova/HelloCordova-Info.plist -genpkginfo /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app/Info.plist36"486B139D-373A-4108-886D-95812C22E38A-
+
+CProcessPCH /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.pth HelloCordova/HelloCordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388940298.094115
+e388940298.592808
+r1
+xProcessPCH
+x/var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.pth
+xHelloCordova/HelloCordova-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile HelloCordova/HelloCordova-Prefix.pch1650180ac22eb741^e4c0970ac22eb741^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/HelloCordova-Prefix.pch0000000000000000^4860"ProcessPCH /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.pth HelloCordova/HelloCordova-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-generated-files.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-own-target-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-all-target-headers.hmap -iquote /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/HelloCordova-project-headers.hmap -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/usr/local/lib/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/UninstalledProducts/include -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources/i386 -I/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.build/Debug-iphonesimulator/HelloCordova.build/DerivedSources -F/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build --serialize-diagnostics /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.dia -c /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/HelloCordova/HelloCordova-Prefix.pch -o /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/jc/1hdt5x954msglvfmw23tz5vr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCordova-Prefix-ackwrktguzoozyhklafnfoqpmifh/HelloCordova-Prefix.pch.d36"CEE0F5BE-10B7-4C2B-A2F3-219B49531FEE-
+
+CTouch /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app
+s388940302.804827
+e388940302.810804
+r1
+xTouch
+x/Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Touch /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app0b2ace0ec22eb741^5394cf0ec22eb741^---0#0#0#--888"Touch build/HelloCordova.app    cd /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Users/mwbrooks/Development/lib/jodoc:/Users/mwbrooks/.local/bin:/Applications/android-sdk-macosx/tools:/Applications/android-sdk-macosx/platform-tools:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11:/Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK 1.0.4.11/dependencies/tools/bin"    /usr/bin/touch -c /Users/mwbrooks/Dropbox/Development/app/michaelbrooks.ca/deck/open-source-phonegap-future/app/basic-app/platforms/ios/build/HelloCordova.app36"7AE24057-97A4-4493-9140-2D3D21F384CB-
+
