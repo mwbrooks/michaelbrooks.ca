@@ -1,0 +1,30 @@
+html,
+body {
+    background-color:black;
+    margin:0px;
+    padding:0px;
+}
+
+#presentation {
+    background-color:white;
+    margin: 0px auto;
+    width: 1280px;
+}
+
+#viewport {
+    background-color:black;
+    height: 10px;
+    position:fixed;
+    top:720px;
+    left:0px;
+    right:0px;
+}
+
+.hide {
+    display:none;
+}
+
+.spacer-100 {
+    height:100px;
+    width:1280px;
+}
