@@ -1,0 +1,754 @@
+<!doctype html 
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+
+        <title>Building a Better CLI</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <style type="text/css">
+            .terminal .reveal .state-background {
+                background: rgba( 255, 255, 255, 0.15 );
+            }
+            .breakingbad .reveal .state-background {
+                background: url('img/dr-frankenstein.jpg') no-repeat center center fixed;
+                background-size:cover;
+            }
+            .bipolar .reveal .state-background {
+                background: url('img/joker.jpg') no-repeat top center fixed;
+                background-size:cover;
+            }
+            .threestooges .reveal .state-background {
+                background: url('img/threestooges.jpg') no-repeat center center fixed;
+                background-size:cover;
+            }
+            .kids .reveal .state-background {
+                background: url('img/switchboard.jpg') no-repeat center center fixed;
+                background-size:cover;
+            }
+            .reveal section[data-state="breakingbad"] h2, .reveal section[data-state="bipolar"] h2, .reveal section[data-state="threestooges"] h2, .reveal section[data-state="kids"] h2 {
+                background-color:rgba(0,0,0,0.6);
+            }
+
+            .reveal section img {
+                background: none;
+                border: none;
+                box-shadow: none;
+            }
+
+            .reveal h2 {
+                text-transform: none;
+            }
+            .reveal h3 {
+                color: #666;
+                text-transform: none;
+            }
+        </style>
+
+    </head>
+    
+    <body>
+        
+        <div class="reveal">
+
+            <!-- Used to fade in a background when a specific slide state is reached -->
+            <div class="state-background"></div>
+            
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h3>
+                        <small><a href="https://twitter.com/filmaj"><strike>Fil Maj</strike></a> &amp; <a href="https://twitter.com/mwbrooks">Michael Brooks</a></small>
+                    </h3>
+                    <h2>Building a Better CLI</h2>
+                    <h3><small>Node Brigade 2013</small></h3>
+                    <div style="position:absolute;top:0px;left:0px;right:96%;bottom:0px;background-color:#444;padding:10px 0px;">
+                        <h3 style="color:white;">&nbsp;</h3>
+                        <h2 style="color:black;">$<h2>
+                        <h3 style="color:white;"> </h3>
+                    </div>
+                </section>
+
+                <!-- ABOUT -->
+
+                <section data-state="terminal">
+                    <div>
+                        <div style="float:left;">
+                            <img src="img/filmaj-polaroid.png" />
+                            <h2><small>Fil Maj</small></h2>
+                            <h3><small><a href="http://twitter.com/filmaj">@filmaj</a></small></h3>
+                        </div>
+                        <div style="float:right">
+                            <img src="img/mwbrooks-polaroid-2.png" />
+                            <h2><small>Michael Brooks</small></h2>
+                            <h3><small><a href="http://twitter.com/mwbrooks">@mwbrooks</a></small></h3>
+                        </div>
+                        <div style="float:clear;"></div>
+                    </div>
+                </section>
+
+                <!-- FILMAJ IS SICK -->
+
+                <section data-state="terminal">
+                    <img src="img/filmaj-joe.jpg" />
+                </section>
+
+                <!-- INTRO -->
+
+                <section>
+                    <h3>We want to</h3>
+                    <h2>share patterns</h2>
+                    <h3>that help us build good CLIs.</h3>
+                </section>
+
+                <section>
+                    <h3>These patterns emerged from</h3>
+                    <h2>concepts we discovered</h2>
+                    <h3>the hard way.</h3>
+                </section>
+
+                <section>
+                    <h3>For years</h3>
+                    <h2>we have been building tools</h2>
+                    <h3>to assist our project.</h3>
+                </section>
+
+                <section>
+                    <h3>Some of the tools are</h3>
+                    <h2>used by people</h2>
+                    <h3>to simplify development.</h3>
+                </section>
+
+                <section>
+                    <h3>Some of the tools are</h3>
+                    <h2>used by tools</h2>
+                    <h3>to delegate responsibility.</h3>
+                </section>
+
+                <section>
+                    <h3>While building the tools, we</h3>
+                    <h2>found CLI qualities</h2>
+                    <h3>that we think are useful.</h3>
+                </section>
+
+                <section>
+                    <h3>So we have</h3>
+                    <h2>hand picked four</h2>
+                    <h3>to share with you today.</h3>
+                </section>
+
+                <section>
+                    <h3>And we'll explain</h3>
+                    <h2>how to implement each</h2>
+                    <h3>of these in Node.</h3>
+                </section>
+
+                <section>
+                    <h3>But remember</h3>
+                    <h2>these are suggestions</h2>
+                    <h3>not requirements.</h3>
+                </section>
+
+                <!-- 1. TESTABLE -->
+
+                <section data-state="breakingbad">
+                    <h2>A command-line interface should be testable.</h2>
+                </section>
+
+                <section>
+                    <h3>For a long long time</h3>
+                    <h2>we struggled to test</h2>
+                    <h3>the command-line interface.</h3>
+                </section>
+
+                <section>
+                    <h3>Originally we</h3>
+                    <h2>tested by shell execution</h2>
+                    <h3>but tests were slow and vague.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/shell-exec.png" />
+                </section>
+
+                <section>
+                    <h3>What we really want are</h3>
+                    <h2>programmatic tests</h2>
+                    <h3>for the command-line interface.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/programmatic-test.png" />
+                </section>
+
+                <section>
+                    <h3>Turns out, we can do this by</h3>
+                    <h2>treating the CLI as a module</h2>
+                    <h3>instead of an executable script.</h3>
+                </section>
+
+                <section>
+                    <h3>First, we have to</h3>
+                    <h2>slim down the bin/</h2>
+                    <h3>to proxy into the CLI module.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/bin-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/bin-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/bin-3.png" />
+                </section>
+
+                <section>
+                    <h3>Second, the</h3>
+                    <h2>CLI should be a module</h2>
+                    <h3>that consumes the main library.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-module-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-module-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-module-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-module-4.png" />
+                </section>
+
+                <section>
+                    <h3>This allows us to</h3>
+                    <h2>test the CLI as a module</h2>
+                    <h3>by faking <code>process.argv</code>.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-4.png" />
+                </section>
+
+                <section>
+                    <h3>Lastly, the CLI module</h3>
+                    <h2>should only have CLI logic</h2>
+                    <h3>keeping it focused.</h3>
+                </section>
+
+                <section>
+                    <h3>Allowing us to</h3>
+                    <h2>mock the main library</h2>
+                    <h3>and keep tests running fast.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-spec-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/cli-mock-1.png" />
+                </section>
+
+                <section>
+                    <h3>And with that</h3>
+                    <h2>we have a testable CLI</h2>
+                    <h3>without doing anything fancy.</h3>
+                </section>
+
+                <!-- 2. HELPFUL -->
+
+                <section data-state="threestooges">
+                    <h2>A command-line interface should be helpful.</h2>
+                </section>
+
+                <section>
+                    <h3>The fact is</h3>
+                    <h2><i>people</i> are using your tool</h2>
+                    <h3><i>not</i> omniscient gods.</h3>
+                </section>
+
+                <section>
+                    <h3>We need to have</h3>
+                    <h2>meaningful help output</h2>
+                    <h3>to assist people with the tool.</h3>
+                </section>
+
+                <section>
+                    <h3>And while it is really</h3>
+                    <h2>convenient to hard-code</h2>
+                    <h3>those helpful messages.</h3>
+                </section>
+
+                <section>
+                    <h3>It results in</h3>
+                    <h2>ugly strings</h2>
+                    <h3>buried deep in the code.</h3>
+                </section>
+
+                <section>
+                    <h3>That we</h3>
+                    <h2>forget to update</h2>
+                    <h3>because it's out of sight.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-4.png" />
+                </section>
+
+                <section>
+                    <h3>But thankfully</h3>
+                    <h2>we can do better</h2>
+                    <h3>with something very obvious.</h3>
+                </section>
+
+                <section>
+                    <h3>We can</h3>
+                    <h2>use text files</h2>
+                    <h3>that are easy to read and edit.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-txt-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-txt-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-txt-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-txt-4.png" />
+                </section>
+
+                <section>
+                    <h3>And we can write code to</h3>
+                    <h2>find, read, and regurgitate</h2>
+                    <h3>the files from given commands.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-ugly-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/help-lookup-1.png" />
+                </section>
+
+                <section>
+                    <h3>And when</h3>
+                    <h2>plain text isn't good enough</h2>
+                    <h3>use templating and markup libraries.</h3>
+                </section>
+
+                <!-- 3. BIPOLAR -->
+
+                <section data-state="bipolar">
+                    <h2>A command-line interface should be bipolar.</h2>
+                </section>
+
+                <section>
+                    <h3>Sometimes it's nice to have</h3>
+                    <h2>a verbose tool</h2>
+                    <h3>when something goes wrong.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/verbose-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/verbose-2.png" />
+                </section>
+
+                <section>
+                    <h3>Sometimes it's nice to have</h3>
+                    <h2>a quiet tool</h2>
+                    <h3>when everything goes right.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/quiet-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/quiet-2.png" />
+                </section>
+
+                <section>
+                    <h3>But when the CLI is decoupled</h3>
+                    <h2>how do we implement this</h2>
+                    <h3>into the tool?</h3>
+                </section>
+
+                <section>
+                    <h3>We have found</h3>
+                    <h2>event emitters work well</h2>
+                    <h3>and add no extra dependencies.</h3>
+                </section>
+
+                <section>
+                    <h3>The idea is that the</h3>
+                    <h2>main library is verbose</h2>
+                    <h3>like a chatty kid.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/event-usage-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/event-usage-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/event-usage-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/event-usage-4.png" />
+                </section>
+
+                <section>
+                    <h3>And the</h3>
+                    <h2>CLI module can subscribe</h2>
+                    <h3>or unsubscribe to the chatty kid.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/verbose-cli-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/verbose-cli-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/verbose-cli-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/verbose-cli-4.png" />
+                </section>
+
+                <section>
+                    <h3>So now we have</h3>
+                    <h2>detailed messages</h2>
+                    <h3>that can be toggled on or off.</h3>
+                </section>
+
+                <!-- 4. WORLDLY -->
+
+                <!--
+                <section>
+                    <h2>A command-line interface should be worldly</h2>
+                </section>
+
+                <section>
+                    <h2>Unix</h2>
+                    <p><code>$ rm -rf /</code></p>
+                    <ul>
+                        <li class="fragment">Predictable and dependable</li>
+                        <li class="fragment">fuck yeah, forward slashes</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <p style="background-color:gray;color:black;">Windows Boot Manager</p>
+                    <p style="text-align:left">Windows failed to start. A recent hardware or software change might be the cause. To fix the problem:</p>
+                    <br/>
+                    <ol style="text-align:left;margin-left:50px;">
+                        <li>Insert your Windows installation disk and restart your computer.</li>
+                        <li>Choose your language settings, and then click "Next."</li>
+                        <li>Click "Repair your computer."</li>
+                    </ol>
+                    <br/>
+                    <br/>
+                    <p style="text-align:left;">If you do not have this disk, contact your system administrator or computer manufacturer for assistance.</p>
+                </section>
+                -->
+
+                <!-- 5. INTEROPERABLE -->
+
+                <section data-state="kids">
+                    <h2>A command-line interface should be interoperable.</h2>
+                </section>
+
+                <section>
+                    <h3>Our parents always said it's</h3>
+                    <h2>important to play nice</h2>
+                    <h3>with the other kids.</h3>
+                </section>
+
+                <section>
+                    <h3>It's not uncommon for</h3>
+                    <h2>tools to use tools</h2>
+                    <h3>to build better tools.</h3>
+                </section>
+
+                <section>
+                    <h3>But this is only possible with</h3>
+                    <h2>good communication</h2>
+                    <h3>between the tools.</h3>
+                </section>
+
+                <section>
+                    <h3>In other words,</h3>
+                    <h2>exit codes</h2>
+                    <h3>are important.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/exit-code-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/exit-code-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/exit-code-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/exit-code-4.png" />
+                </section>
+
+                <section>
+                    <h3>We may also want</h3>
+                    <h2>consumable output</h2>
+                    <h3>for other tools to parse.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/interoperable-json-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/interoperable-json-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/interoperable-format-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/interoperable-format-2.png" />
+                </section>
+
+                <section>
+                    <h3>And don't forget about</h3>
+                    <h2>playing nice on Windows</h2>
+                    <h3>the kid that's always picked last.</h3>
+                </section>
+
+                <section>
+                    <h3>Try to</h3>
+                    <h2>avoid hard-coding paths</h2>
+                    <h3>into your code.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-path-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-path-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-path-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-path-4.png" />
+                </section>
+
+                <section>
+                    <h3>Remember to</h3>
+                    <h2>use environment variables</h2>
+                    <h3>for the details.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-home-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-home-2.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-home-3.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-home-4.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-home-5.png" />
+                </section>
+
+                <section>
+                    <h3>And thankfully</h3>
+                    <h2>npm is Windows-friendly</h2>
+                    <h3>scripts add binaries to PATH.</h3>
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-npm-1.png" />
+                </section>
+
+                <section data-state="terminal">
+                    <img src="img/section/windows-npm-2.png" />
+                </section>
+
+                <section>
+                    <h3></h3>
+                    <h2>And that's it.</h2>
+                    <h3></h3>
+                </section>
+
+                <section>
+                    <h3>We hope those</h3>
+                    <h2>four simple suggestions</h2>
+                    <h3>help improve your CLI.</h3>
+                </section>
+
+                <!-- THANKS -->
+
+                <section>
+                    <h1>Thanks!</h1>
+                    <h3>
+                        <small><a href="https://twitter.com/filmaj"><strike>@filmaj</strike></a> &amp; <a href="https://twitter.com/mwbrooks">@mwbrooks</a></small>
+                    </h3>
+                    <h3>
+                        <small><a href="http://michaelbrooks.ca/deck/node-brigade-2013">michaelbrooks.ca/deck/node-brigade-2013</a></small>
+                    </h3>
+                </section>
+            </div>
+
+            <!-- The navigational controls UI -->
+            <aside class="controls">
+                <a class="left" href="#">&#x25C4;</a>
+                <a class="right" href="#">&#x25BA;</a>
+                <a class="up" href="#">&#x25B2;</a>
+                <a class="down" href="#">&#x25BC;</a>
+            </aside>
+
+            <!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+            <div class="progress"><span></span></div>
+            
+        </div>
+
+        <!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
+        <script src="lib/js/head.min.js"></script>
+
+        <script>
+            // Load the main reveal.js script
+            head.js( 'js/reveal.js', function() {
+                // Parse the query string into a key/value object
+                var query = {};
+
+                location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+                    query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+                } );
+
+                // Full list of configuration options available here:
+                // https://github.com/hakimel/reveal.js#configuration
+                Reveal.initialize({
+                    controls: false,
+                    progress: true,
+                    history: true,
+
+                    theme: query.theme || 'default', // default/neon/beige
+                    transition: query.transition || 'fade' // default/cube/page/concave/linear(2d)
+                });
+            } );
+            
+            // Load third party scripts
+            head.js( 'lib/js/classList.js' );
+            head.js( 'lib/js/highlight.js', function() {
+                // Fire off syntax highlighting for potential code samples in the slides
+                hljs.initHighlightingOnLoad();
+            } );
+
+            // If we're runnning the notes server we need to include some additional JS
+            // TODO Is there a better way to determine if we're running the notes server?
+            if( window.location.host === 'localhost:1947' ) {
+                head.js( 'socket.io/socket.io.js', 'plugin/speakernotes/client.js' );
+            }
+        </script>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-4895289-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </body>
+</html>
