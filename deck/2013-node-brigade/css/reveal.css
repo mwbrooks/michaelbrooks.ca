@@ -1262,11 +1262,11 @@ body {
 	height: 100%;
 	background: rgba( 0, 0, 0, 0 );
 
-	-webkit-transition: background 800ms ease;
-	   -moz-transition: background 800ms ease;
-	    -ms-transition: background 800ms ease;
-	     -o-transition: background 800ms ease;
-	        transition: background 800ms ease;
+	-webkit-transition: background-color 800ms ease;
+	   -moz-transition: background-color 800ms ease;
+	    -ms-transition: background-color 800ms ease;
+	     -o-transition: background-color 800ms ease;
+	        transition: background-color 800ms ease;
 }
 .alert .reveal .state-background {
 	background: rgba( 200, 50, 30, 0.6 );
