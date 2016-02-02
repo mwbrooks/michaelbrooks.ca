@@ -1,0 +1,26 @@
+{
+    "name": "pgday",
+    "description": "PhoneGap Day.",
+    "version": "0.0.1",
+    "preferGlobal": "true",
+    "main": "./lib/index.js",
+    "bin": {
+        "pgday": "./bin/pgday.js"
+    },
+    "dependencies": {
+        "ansi": "0.2.0",
+        "canvas": "1.0.3"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.8.0"
+    },
+    "optionalDependencies": {
+    },
+    "author": {
+        "name": "Michael Brooks",
+        "email": "michael@michaelbrooks.ca",
+        "url": "http://michaelbrooks.ca/"
+    },
+    "contributors": [
+    ]
+}
