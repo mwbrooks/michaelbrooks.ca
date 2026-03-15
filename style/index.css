@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 html, body {
   background-color:#F8F8F8;
   color:#333333;
@@ -27,7 +31,7 @@ body div h1 {
   font-size:42px;
   font-weight:bold;
   margin:0px;
-  padding:0px;  
+  padding:0px;
   text-align:left;
 }
 
@@ -108,4 +112,66 @@ body div ul.rounded_container {
   font-size:14px;
   padding:4px 0px;
   text-shadow:2px 2px 2px #E6E6E6;
+}
+
+/* Dark mode via light-dark() — modern browsers only */
+@supports (color: light-dark(#fff, #000)) {
+  :root {
+    --bg:               light-dark(#F8F8F8, #1a1a1a);
+    --text:             light-dark(#333333, #cccccc);
+    --link:             light-dark(#000000, #e0e0e0);
+    --link-hover:       light-dark(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.6));
+    --tagline:          light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.15));
+    --negative:         light-dark(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.3));
+    --email-shadow:     light-dark(#CCCCCC, #444444);
+    --repeat:           light-dark(#F8F8F8, #1a1a1a);
+    --container-bg:     light-dark(#FFFFFF, #2a2a2a);
+    --highlight-bg:     light-dark(#FFFFCC, #3d3d00);
+    --highlight-shadow: light-dark(#E6E6E6, #333333);
+  }
+
+  html, body {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  a,
+  a:visited {
+    color: var(--link);
+  }
+
+  a:hover {
+    color: var(--link-hover);
+  }
+
+  body div h2 {
+    border-top-color: var(--text);
+  }
+
+  body div p {
+    color: var(--tagline);
+  }
+
+  body div li.negative {
+    color: var(--negative);
+  }
+
+  body div li.email {
+    text-shadow: 1px 1px 1px var(--email-shadow);
+  }
+
+  body div li span.repeat {
+    color: var(--repeat);
+  }
+
+  body div ul.rounded_container {
+    background-color: var(--container-bg);
+    border-color: light-dark(#BBBBBB, #555555) light-dark(#DDDDDD, #444444) light-dark(#EFEFEF, #333333) light-dark(#DDDDDD, #444444);
+  }
+
+  .highlight {
+    background-color: var(--highlight-bg);
+    color: var(--text);
+    text-shadow: 2px 2px 2px var(--highlight-shadow);
+  }
 }
